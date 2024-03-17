@@ -1,5 +1,6 @@
 import React from 'react'
 import yourImage from "./register.jpg";
+import {Link} from 'react-router-dom';
 
 function Register() {
   return (
@@ -12,9 +13,10 @@ function Register() {
                  <div class="p-2">Flex item 2</div>
                  <div class="p-2">Flex item 3</div>
                 </div>
+                <Link type="button" class="btn bg-light" to="/image_capture" >Register</Link>
             </div>
         </div>
-    </div>
+      </div>
     </div>
   )
 }
