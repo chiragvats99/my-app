@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+Here's a quick overview of the tech stack and models I'm using:
+Tech Stack:
+Frontend: React.js
+Backend: Node.js with Express.js
+Authentication & Database: Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Facial Recognition Models:
+SSD Mobilenet V1
+Tiny Face Detector
+MTCNN (Multi-task Cascaded Convolutional Networks)
+68 Point Face Landmark Detection
+Face Recognition Model
+Face Expression Recognition Model
 
-## Available Scripts
+Project Highlights:
+Robust Biometric Authentication: Utilizing state-of-the-art models to ensure highly secure and accurate facial recognition.
+Seamless User Experience: Users can log in with a simple glance, eliminating the need for passwords and enhancing convenience.
+Firebase Integration: Storing user data securely in Firebase, ensuring scalability and reliability.
 
-In the project directory, you can run:
+Benefits of Our System:
+Increased Security: Hard to spoof biometric data enhances overall system security.
+Improved Convenience: No more password fatigue—users authenticate effortlessly.
+Frictionless Access: Smooth, intuitive login process boosts productivity and user satisfaction.
 
-### `npm start`
+Challenges and Considerations:
+Infrastructure Requirements: Ensuring robust hardware and software infrastructure to support high-performance facial recognition.
+User Enrollment: Securely capturing and enrolling facial biometrics with user consent.
+Integration: Seamlessly integrating with existing SSO workflows and identity management systems.
+Privacy and Ethics: Addressing data privacy concerns and ensuring transparent user consent processes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future Directions:
+Multimodal Authentication: Combining facial recognition with other biometrics for even more robust security.
+Liveness Detection: Advancing AI to distinguish between real users and spoofed images/videos.
+Edge Computing: Enhancing privacy and reducing latency by processing biometric data locally on devices.
