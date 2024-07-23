@@ -1,4 +1,4 @@
-Here's a quick overview of the tech stack and models I'm using:
+Here's a quick overview of the tech stack and models I've used:
 Tech Stack:
 Frontend: React.js
 Backend: Node.js with Express.js
